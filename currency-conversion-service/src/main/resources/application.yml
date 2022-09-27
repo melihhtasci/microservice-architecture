@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: currency-conversion-service
+  cloud:
+    config:
+      import-check:
+        enabled: false
+server:
+  port: 8010
